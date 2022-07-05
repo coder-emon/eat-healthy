@@ -153,9 +153,7 @@ body {
     width:230px;
     padding-top: 40px;
 }
-.f-item > h2 {
 
-}
 .f-item > p {
 font-size: 13px;
     line-height: 25px;
@@ -163,6 +161,25 @@ font-size: 13px;
     padding-bottom: 30px;
     text-align: left;
 }
-.mr{
-    margin-right: 20px;
+.footer{
+    padding: 30px 0;
+    background-color: #0B0D17;
+    text-align: center;
+}
+.footer h2{
+color: #5B5B5B;
+padding-top:20px;
+
+}
+.footer h2 span{
+color: #FC8444;
+}
+.footer p{
+    font-size: 13px;
+        line-height: 25px;
+        font-weight: 500;
+        padding-bottom: 30px;
+        color: #fff;
+        padding-top: 30px;
+        padding-bottom: 30px;
 }
