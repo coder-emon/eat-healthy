@@ -22,12 +22,14 @@ margin-bottom: 20px;
  color: orange;
 }
 .hero-left p{
-    font-size:20px;
+    font-size: 13px;
+        line-height: 25px;
+        font-weight: 500;
+        max-width: 350px;
     padding: 20px 0 20px 0;
 }
-.hero-left button{
-/* background:linear-gradient(to right, #FBA24F #FF1E1E) ; */
-/* background-color: #FBA24F; */
+.myBtn{
+
 background: #FBA24F;
     background: linear-gradient(to right, #FBA24F 0%, #FF1E1E 100%);
    background-clip: text;
@@ -44,4 +46,73 @@ width:40%;
 .hero-right img{
     max-width: 100%;
     
+}
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/shapes/7.png);
+    background-size: cover;
+    padding-top: 110px;
+}
+.about-left{
+width: 40%;
+}
+.about-left img{
+max-width: 50%;
+}
+.about-right{
+width: 40%;
+}
+.about-right h2{
+padding-bottom: 50px;
+}
+.about-right p {
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    max-width: 350px;
+}
+
+.blog > h2{
+padding: 50px 0;
+text-align: center;
+    
+}
+.blog p {
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    max-width: 540px;
+    text-align: center;
+    margin: auto;
+}
+.blog-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+.blog-item {
+    width: 375px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+    padding: 20px 20px 0px 20px;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+.blog-item img{
+    width: 375px;
+        height: 240px;
+}
+.blog-item h2{
+padding: 15px 0;
+}
+.blog-item > p{
+    font-size: 13px;
+        line-height: 25px;
+        font-weight: 500;
+        padding-bottom: 30px;
+        text-align: left;
 }
