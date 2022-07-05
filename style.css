@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.hero{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.hero-left{
+width: 40%;
+padding-top: 70px;
+}
+.hero-left h1{
+font-size: 50px;
+margin-bottom: 20px;
+}
+.hero-left h1 span{
+ color: orange;
+}
+.hero-left p{
+    font-size:20px;
+    padding: 20px 0 20px 0;
+}
+.hero-left button{
+/* background:linear-gradient(to right, #FBA24F #FF1E1E) ; */
+/* background-color: #FBA24F; */
+background: #FBA24F;
+    background: linear-gradient(to right, #FBA24F 0%, #FF1E1E 100%);
+   background-clip: text;
+    -webkit-text-fill-color: #fff;
+padding: 12px 25px;
+border:1px solid #FBA24F;
+border-radius: 25px;
+cursor: pointer;
+}
+.hero-right{
+width:40%;
+
+}
+.hero-right img{
+    max-width: 100%;
+    
+}
